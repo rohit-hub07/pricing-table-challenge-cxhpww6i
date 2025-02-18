@@ -14,26 +14,45 @@ body {
 
 .container {
   /* Add your styles here */
+  text-align: center;
+  margin-top: 10px;
 }
+
 
 h1 {
   /* Add your styles here */
+  font-size: 50px;
 }
 
 .pricing-heading {
   /* Add your styles here */
+  margin-bottom: 70px;
 }
 
 .pricing-container {
   /* Add your styles here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
 }
 
 .pricing-card {
   /* Add your styles here */
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 0;
+  text-align: center;
 }
 
 .pricing-card:hover {
   /* Add your styles here */
+  height: 600px;
+  transform: translateX(-5);
+  border: 2px solid orange;
+
 }
 
 .pricing-card.popular {
@@ -42,26 +61,44 @@ h1 {
 
 .popular-badge {
   /* Add your styles here */
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 0;
 }
 
 .price {
   /* Add your styles here */
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .period {
   /* Add your styles here */
+  margin-bottom: 40px;
 }
 
 .features {
   /* Add your styles here */
+  
 }
 
 .features li {
   /* Add your styles here */
+  margin: 10px 0;
+  list-style-type: "🍵";
+  
 }
 
 .subscribe-btn {
   /* Add your styles here */
+  margin-top: 20px;
+  height: 40px;
+  width: 160px;
+  border-radius: 25px;
+  border: none;
+  background-color: orange;
+  font-weight: 550;
 }
 
 .subscribe-btn:hover {
